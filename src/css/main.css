@@ -12,3 +12,70 @@ img,
 video {
   display: block;
 }
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px;
+  gap: 25px;
+  border-radius: 24px;
+  transition: 0.5s;
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 68.571% */
+    text-transform: uppercase;
+  }
+  h2 {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Open Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 104.348% */
+  }
+}
+.week {
+  border-radius: 20px;
+  background: #ff844c;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  padding: 10px;
+  width: 39.5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  align-items: center;
+}
+.today {
+  border-radius: 24px;
+  background: #fff;
+  h1 {
+    color: black;
+  }
+  h2 {
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+.day:hover {
+  background: #fff;
+  h1 {
+    color: black;
+  }
+  h2 {
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+.today:hover {
+  background: #ff844c;
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
